@@ -11,17 +11,17 @@
 // @see https://developer.paypal.com/docs/integration/direct/identity/attributes/ for more details
 
 /// Authorize charges for future purchases paid for with PayPal.
-extern NSString * _PPM_NONNULL const kPayPalOAuth2ScopeFuturePayments;
+extern NSString * __PPM_nonnull const kPayPalOAuth2ScopeFuturePayments;
 /// Share basic account information.
-extern NSString * _PPM_NONNULL const kPayPalOAuth2ScopeProfile;
+extern NSString * __PPM_nonnull const kPayPalOAuth2ScopeProfile;
 /// Basic Authentication.
-extern NSString * _PPM_NONNULL const kPayPalOAuth2ScopeOpenId;
+extern NSString * __PPM_nonnull const kPayPalOAuth2ScopeOpenId;
 /// Share your personal and account information.
-extern NSString * _PPM_NONNULL const kPayPalOAuth2ScopePayPalAttributes;
+extern NSString * __PPM_nonnull const kPayPalOAuth2ScopePayPalAttributes;
 /// Share your email address.
-extern NSString * _PPM_NONNULL const kPayPalOAuth2ScopeEmail;
+extern NSString * __PPM_nonnull const kPayPalOAuth2ScopeEmail;
 /// Share your account address.
-extern NSString * _PPM_NONNULL const kPayPalOAuth2ScopeAddress;
+extern NSString * __PPM_nonnull const kPayPalOAuth2ScopeAddress;
 /// Share your phone number.
-extern NSString * _PPM_NONNULL const kPayPalOAuth2ScopePhone;
+extern NSString * __PPM_nonnull const kPayPalOAuth2ScopePhone;
 

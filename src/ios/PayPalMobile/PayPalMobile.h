@@ -18,11 +18,11 @@
 
 /// Production (default): Normal, live environment. Real money gets moved.
 /// This environment MUST be used for App Store submissions.
-extern NSString * _PPM_NONNULL const PayPalEnvironmentProduction;
+extern NSString * __PPM_nonnull const PayPalEnvironmentProduction;
 /// Sandbox: Uses the PayPal sandbox for transactions. Useful for development.
-extern NSString * _PPM_NONNULL const PayPalEnvironmentSandbox;
+extern NSString * __PPM_nonnull const PayPalEnvironmentSandbox;
 /// NoNetwork: Mock mode. Does not submit transactions to PayPal. Fakes successful responses. Useful for unit tests.
-extern NSString * _PPM_NONNULL const PayPalEnvironmentNoNetwork;
+extern NSString * __PPM_nonnull const PayPalEnvironmentNoNetwork;
 
 @interface PayPalMobile : NSObject
 
