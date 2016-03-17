@@ -29,6 +29,7 @@
         </config-file>
 
         <header-file src="src/ios/PayPalMobileCordovaPlugin.h" />
+        <header-file src="src/ios/PayPalMobileXcode7CompatibilityMacros.h" />
         <source-file src="src/ios/PayPalMobileCordovaPlugin.m" />
 
         <header-file src="src/ios/PayPalMobile/PayPalConfiguration.h" />
